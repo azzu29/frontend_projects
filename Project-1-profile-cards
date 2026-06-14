@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">CEO's Profile Card</h2>
+
+<div class="card-container">
+
+<div class="card">
+  <img src="https://assets.bizclikmedia.net/668/9e4739d4eda1595e9b0a1ef05a86cb55:b49607ff41e7327254feda389ee6a1d4/huang-smiling-close-summit-2024-reduced-0.webp" alt="John" style="width:100%">
+  <h1>Jensen Huang</h1>
+  <p class="title">CEO, Nvidia</p>
+  <p>Oregon State University</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a>
+  </div>
+  <p><button>Contact</button></p>
+  </div>
+
+<div class="card">
+  <img src="https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTM5MzE1/gettyimages-2265246495-1.jpg?profile=w2560&ar=4-3" alt="John" style="width:100%">
+  <h1>Andy Jassy</h1>
+  <p class="title">CEO, Amazon</p>
+  <p>Harvard University</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+<div class="card">
+  <img src="https://assets.bizclikmedia.net/668/05659d67b129e72496889b970d608f04:cddd0b55886008c4d3c71a87f47cb19b/107196499-1676648872393-gettyimages-1127480489-new-work-summit.webp" alt="John" style="width:100%">
+  <h1>Sam Altman</h1>
+  <p class="title">CEO, OpenAI</p>
+  <p>Stanford University</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+<div class="card">
+  <img src="https://i.insider.com/5cbf7c6c2730ca37b6174921?width=700" alt="John" style="width:100%">
+  <h1>Doug McMillon</h1>
+  <p class="title">CEO, Walmart</p>
+  <p>University of Arkansas</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>
